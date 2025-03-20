@@ -1,41 +1,40 @@
 import React from "react";
-
+import Img1 from "../assets/model1.jpg";
+import Img2 from "../assets/model2.jpg";
+import Img3 from "../assets/model3.jpg";
+import Img4 from "../assets/model4.jpg";
+import Img5 from "../assets/model5.jpg";
 const CardSection = () => {
   const cards = [
     {
-      image: "/src/assets/model1.jpg",
+      image: Img1,
       title: "Eco Aware organic cotton top",
       stars: "*****",
       price: "$ 39.00",
-      link: "/product/eco-aware-organic-cotton-top", // Replace with actual link
     },
     {
-      image: "/src/assets/model2.jpg",
+      image: Img2,
       title: "Eco aware long sleeve blouse",
       stars: "*****",
       price: "$ 47.00",
-      link: "/product/eco-aware-long-sleeve-blouse", // Replace with actual link
     },
     {
-      image: "/src/assets/model3.jpg",
+      image: Img3,
       title: "Oversized jacket with denim panels",
       stars: "*****",
       price: "$ 33.00",
-      link: "/product/oversized-jacket-denim-panels", // Replace with actual link
     },
     {
-      image: "/src/assets/model4.jpg",
+      image: Img4,
       title: "Levi's essential western denim shirt",
       stars: "★★★★☆",
       price: "$ 115.00",
-      link: "/product/levis-essential-western-denim-shirt", //Replace with actual link
     },
     {
-      image: "/src/assets/model5.jpg",
+      image: Img5,
       title: "Faux suede biker jacket",
       stars: "*****",
       price: "$ 60.00",
-      link: "/product/faux-suede-biker-jacket", //Replace with actual link
     },
   ];
 

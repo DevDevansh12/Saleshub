@@ -1,20 +1,18 @@
 import React from "react";
-// import video from "../assets/video.mp4";
+import video from "../assets/video.mp4";
 const VideoBanner = () => {
   return (
     <div className="relative h-[600px] md:h-[800px] w-full overflow-hidden">
-      {/* Video Background */}
       <video
         autoPlay
         loop
         muted
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/src/assets/video.mp4" type="video/mp4" />
+        <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
-      {/* Content Overlay */}
       <div className="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-30">
         <div className="container mx-auto px-4 text-center">
           <p className="text-xs tracking-widest uppercase mb-2">New Arrivals</p>
