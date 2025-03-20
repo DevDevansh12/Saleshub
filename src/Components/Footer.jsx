@@ -5,7 +5,10 @@ import {
   FaPinterestP,
   FaInstagram,
 } from "react-icons/fa";
-
+import Logo1 from "../assets/visa.png";
+import Logo2 from "../assets/mastercard.png";
+import Logo3 from "../assets/paypal.png";
+import Logo4 from "../assets/amx.png";
 const Footer = () => {
   return (
     <footer className="bg-[#EBE8E2] py-12">
@@ -23,16 +26,16 @@ const Footer = () => {
             </p>
             <div className="flex mt-4">
               <span className="mr-2">
-                <img src="/visa.png" alt="Visa" className="h-6" />
+                <img src={Logo1} alt="Visa" className="h-6" />
               </span>
               <span className="mr-2">
-                <img src="/mastercard.png" alt="Mastercard" className="h-6" />
+                <img src={Logo2} alt="Mastercard" className="h-6" />
               </span>
               <span className="mr-2">
-                <img src="/paypal.png" alt="PayPal" className="h-6" />
+                <img src={Logo3} alt="PayPal" className="h-6" />
               </span>
               <span>
-                <img src="/amex.png" alt="Amex" className="h-6" />
+                <img src={Logo4} alt="Amex" className="h-6" />
               </span>
             </div>
           </div>
@@ -136,7 +139,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-8 border-t pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
           <p className="mb-2 md:mb-0">
-            Copyright © 2021 Vinovathemes, All rights reserved.
+            Copyright © 2025 Devansh, All rights reserved.
           </p>
           <div className="flex items-center space-x-4">
             <span className="flex items-center">

@@ -1,8 +1,8 @@
 import React from "react";
-import image1 from "./../assets/pic.png"; // Replace with your image paths
-import image2 from "./../assets/pic2.jpg";
-import image3 from "./../assets/pic3.png";
-import image4 from "./../assets/pic3.png";
+import image1 from "./../assets/main1.png"; // Replace with your image paths
+import image2 from "./../assets/main2.png";
+import image3 from "./../assets/main3.png";
+import image4 from "./../assets/main4.png";
 
 const ShopTheLooks = () => {
   return (

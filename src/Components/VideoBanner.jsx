@@ -22,10 +22,10 @@ const VideoBanner = () => {
             Autumn is Coming
           </h2>
           <p className="text-sm mb-6">
-            The 11 Biggest Autumn / Winter 2021 Trends
+            The 11 Biggest Autumn / Winter 2025 Trends
           </p>
-          <p className="text-xs mb-8">By VinovaTheme | November 2021</p>
-          <button className="bg-white text-black px-6 py-3 rounded-full font-bold hover:bg-gray-200 transition-colors duration-300">
+          <p className="text-xs mb-8">By Novaflix | Winter 2025</p>
+          <button className="bg-white text-black px-6 py-3 font-bold hover:bg-gray-200 transition-colors duration-300">
             View More
           </button>
         </div>

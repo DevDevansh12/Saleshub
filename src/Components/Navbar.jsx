@@ -34,21 +34,21 @@ const Navbar = () => {
         <div className="flex justify-between h-20 items-center">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="font-bold text-3xl">Salehub</span>
+              <span className="font-bold text-4xl text-[#ac8436]">Salehub</span>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <Link
                 to="/"
-                className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                className="border-transparent text-black hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium"
               >
                 Home
               </Link>
               <div ref={dropdownRef} className="relative">
                 <button
                   onClick={togglePagesDropdown}
-                  className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                  className="border-transparent text-black hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium"
                 >
-                  Pages
+                  Shop
                 </button>
                 {isPagesDropdownOpen && (
                   <div
@@ -67,31 +67,31 @@ const Navbar = () => {
                             COLLECTION
                           </h3>
                           <Link
-                            to="/collection-left-sidebar"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Left Sidebar
+                            Sweater
                           </Link>
                           <Link
-                            to="/collection-right-sidebar"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Right Sidebar
+                            Sweatshirt
                           </Link>
                           <Link
-                            to="/collection-full-width"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Full Width
+                            Tshirts
                           </Link>
                           <Link
-                            to="/collection-canvas-sidebar"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Canvas Sidebar
+                            Shirts
                           </Link>
                           <Link
-                            to="/all-collections"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
                             All Collections
@@ -102,93 +102,91 @@ const Navbar = () => {
                             PRODUCT SINGLE
                           </h3>
                           <Link
-                            to="/single-product-v1"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Product v1
+                            Pyjamas
                           </Link>
                           <Link
-                            to="/single-product-v2"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Product v2
+                            Underwear
                           </Link>
                           <Link
-                            to="/single-product-v3"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Product v3
+                            Socks and slippers
                           </Link>
                           <Link
-                            to="/single-product-v4"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Product v4
+                            Shoes
                           </Link>
                           <Link
-                            to="/single-product-v5"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Product v5
+                            Bagpacks
                           </Link>
                           <Link
-                            to="/single-product-v6"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Product v6
+                            Hats
                           </Link>
                           <Link
-                            to="/product-pre-order"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Pre Order
+                            Muffler
                           </Link>
                           <Link
-                            to="/product-video"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Video
+                            Bottom Wear
                           </Link>
                         </div>
                         <div>
                           <h3 className="font-semibold text-sm mb-2">
-                            INNER PAGES
+                            ACCESSORIES
                           </h3>
                           <Link
-                            to="/about-us"
+                            to="/"
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                          ></Link>
+                          <Link
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            About Us
+                            Outerwear
                           </Link>
                           <Link
-                            to="/contact-us"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Contact Us
+                            Dresses
                           </Link>
                           <Link
-                            to="/faqs-page"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            FAQs Page
+                            Jackets
                           </Link>
                           <Link
-                            to="/term-and-services"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Term and Services
+                            Swimwear
                           </Link>
                           <Link
-                            to="/privacy-policy"
+                            to="/"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Privacy Policy
-                          </Link>
-                          <Link
-                            to="/size-guide"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Size Guide
+                            Beauty
                           </Link>
                         </div>
                       </div>
@@ -197,20 +195,20 @@ const Navbar = () => {
                 )}
               </div>
               <Link
-                to="/women"
-                className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                to="/"
+                className="border-transparent text-black hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium"
               >
                 Women
               </Link>
               <Link
-                to="/men"
-                className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                to="/"
+                className="border-transparent text-black hover:border-gray-300 hover:text-gray-700inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium"
               >
                 Men
               </Link>
               <Link
-                to="/blog"
-                className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                to="/"
+                className="border-transparent text-black hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium"
               >
                 Blog
               </Link>
@@ -222,11 +220,8 @@ const Navbar = () => {
                 <span className="sr-only">Search</span>
                 <FaSearch className="h-6 w-6" aria-hidden="true" />
               </button>
-              <Link
-                to="/account"
-                className="ml-4 text-gray-500 hover:text-gray-700"
-              >
-                <span className="sr-only">Account</span>
+              <Link to="/" className="ml-4 text-gray-500 hover:text-gray-700">
+                <span className="sr-only">Login</span>
                 <FaUser className="h-6 w-6" aria-hidden="true" />
               </Link>
               <Link
@@ -279,7 +274,7 @@ const Navbar = () => {
           </Link>
           <div onClick={togglePagesDropdown} className="relative">
             <button className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium w-full text-left">
-              Pages
+              Shop
             </button>
             {isPagesDropdownOpen && (
               <div className="ml-6" style={{ minWidth: "250px" }}>
@@ -287,31 +282,31 @@ const Navbar = () => {
                   COLLECTION
                 </h3>
                 <Link
-                  to="/collection-left-sidebar"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Left Sidebar
+                  Sweater
                 </Link>
                 <Link
-                  to="/collection-right-sidebar"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Right Sidebar
+                  Sweatshirt
                 </Link>
                 <Link
-                  to="/collection-full-width"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Full Width
+                  Tshirts
                 </Link>
                 <Link
-                  to="/collection-canvas-sidebar"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Canvas Sidebar
+                  Shirts
                 </Link>
                 <Link
-                  to="/all-collections"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
                   All Collections
@@ -320,107 +315,107 @@ const Navbar = () => {
                   PRODUCT SINGLE
                 </h3>
                 <Link
-                  to="/single-product-v1"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Product v1
+                  Pyjamas
                 </Link>
                 <Link
-                  to="/single-product-v2"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Product v2
+                  Underwear
                 </Link>
                 <Link
-                  to="/single-product-v3"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Product v3
+                  Socks and slippers
                 </Link>
                 <Link
-                  to="/single-product-v4"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Product v4
+                  Shoes
                 </Link>
                 <Link
-                  to="/single-product-v5"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Product v5
+                  Backpacks
                 </Link>
                 <Link
-                  to="/single-product-v6"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Product v6
+                  Hats
                 </Link>
                 <Link
-                  to="/product-pre-order"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Pre Order
+                  Muffler
                 </Link>
                 <Link
-                  to="/product-video"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Video
+                  Bottom wear
                 </Link>
-                <h3 className="font-semibold text-sm my-2 pl-4">INNER PAGES</h3>
+                <h3 className="font-semibold text-sm my-2 pl-4">ACCESSORIES</h3>
                 <Link
-                  to="/about-us"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  About Us
-                </Link>
-                <Link
-                  to="/contact-us"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
-                  Contact Us
+                  Outerwear
                 </Link>
                 <Link
-                  to="/faqs-page"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  FAQs Page
+                  Dresses
                 </Link>
                 <Link
-                  to="/term-and-services"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Term and Services
+                  Jackets
                 </Link>
                 <Link
-                  to="/privacy-policy"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Privacy Policy
+                  Swimwear
                 </Link>
                 <Link
-                  to="/size-guide"
+                  to="/"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                  Size Guide
+                  Beauty
+                </Link>
+                <Link
+                  to="/"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >
+                  Collections
                 </Link>
               </div>
             )}
           </div>
           <Link
-            to="/women"
+            to="/"
             className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
           >
             Women
           </Link>
           <Link
-            to="/men"
+            to="/"
             className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
           >
             Men
           </Link>
           <Link
-            to="/blog"
+            to="/"
             className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
           >
             Blog
