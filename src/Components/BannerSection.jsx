@@ -1,5 +1,5 @@
 import React from "react";
-import denimJacketImage from "./../assets/banner.jpg"; // Replace with the actual path to your image
+import denimJacketImage from "./../assets/banner.jpg";
 
 const BannerSection = () => {
   return (

@@ -56,7 +56,7 @@ const CardSection = () => {
             <img
               src={card.image}
               alt={card.title}
-              className="w-full h-auto aspect-[2/3] object-cover" // Maintain aspect ratio
+              className="w-full h-auto aspect-[2/3] object-cover"
             />
             <div className="p-4">
               <h3 className="text-sm font-semibold mb-2 font-sans line-clamp-2">

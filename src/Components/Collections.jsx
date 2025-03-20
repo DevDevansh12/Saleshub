@@ -5,7 +5,6 @@ import PicThree from "../assets/pic3.png";
 const Collections = () => {
   return (
     <div className="container mx-auto px-4 py-16">
-      {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold tracking-wider uppercase mb-4 font-serif">
           DENIM COLLECTION
@@ -16,13 +15,10 @@ const Collections = () => {
           SaleHub online.
         </p>
       </div>
-
-      {/* Collection Items */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Denim Mini Skirt */}
         <div className="relative">
           <img
-            src={Picone} // Replace with your image path
+            src={Picone}
             alt="Denim Mini Skirt"
             className="w-full rounded-lg"
           />
@@ -35,14 +31,8 @@ const Collections = () => {
             </button>
           </div>
         </div>
-
-        {/* Denim Jacket */}
         <div className="relative">
-          <img
-            src={Pictwo} // Replace with your image path
-            alt="Denim Jacket"
-            className="w-full rounded-lg"
-          />
+          <img src={Pictwo} alt="Denim Jacket" className="w-full rounded-lg" />
           <div className="absolute bottom-4 left-4 text-white">
             <h3 className="text-2xl font-bold uppercase font-serif">
               DENIM - JACKET
@@ -56,10 +46,9 @@ const Collections = () => {
           </div>
         </div>
 
-        {/* Hooded Denim */}
         <div className="relative">
           <img
-            src={PicThree} // Replace with your image path
+            src={PicThree}
             alt="Hooded Denim"
             className="w-full rounded-lg"
           />
